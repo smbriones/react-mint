@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-  <h1>react-mint</h1>,
+  <div>
+    <h1>react-mint</h1>
+  </div>,
   document.getElementById('container')
 );

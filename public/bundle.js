@@ -57,9 +57,13 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	_reactDom2.default.render(_react2.default.createElement(
-	  'h1',
+	  'div',
 	  null,
-	  'react-mint'
+	  _react2.default.createElement(
+	    'h1',
+	    null,
+	    'react-mint'
+	  )
 	), document.getElementById('container'));
 
 /***/ },
