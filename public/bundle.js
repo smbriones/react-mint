@@ -54,17 +54,44 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
+	var _Header = __webpack_require__(168);
+
+	var _Header2 = _interopRequireDefault(_Header);
+
+	var _Content = __webpack_require__(169);
+
+	var _Content2 = _interopRequireDefault(_Content);
+
+	var _Footer = __webpack_require__(170);
+
+	var _Footer2 = _interopRequireDefault(_Footer);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_reactDom2.default.render(_react2.default.createElement(
-	  'div',
-	  null,
-	  _react2.default.createElement(
-	    'h1',
-	    null,
-	    'react-mint'
-	  )
-	), document.getElementById('container'));
+	var App = _react2.default.createClass({
+	  displayName: 'App',
+
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      { className: 'app' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'container' },
+	        _react2.default.createElement(
+	          'h1',
+	          { className: 'title' },
+	          'Hello, Universe'
+	        )
+	      ),
+	      _react2.default.createElement(_Header2.default, null),
+	      _react2.default.createElement(_Content2.default, null),
+	      _react2.default.createElement(_Footer2.default, null)
+	    );
+	  }
+	});
+
+	_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('app-container'));
 
 /***/ },
 /* 1 */
@@ -20333,6 +20360,120 @@
 	var ReactMount = __webpack_require__(160);
 
 	module.exports = ReactMount.renderSubtreeIntoContainer;
+
+/***/ },
+/* 168 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Header = _react2.default.createClass({
+	  displayName: "Header",
+
+	  render: function render() {
+	    return _react2.default.createElement(
+	      "div",
+	      { className: "header" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "container" },
+	        _react2.default.createElement(
+	          "h1",
+	          { className: "title" },
+	          "Header!"
+	        )
+	      )
+	    );
+	  }
+	});
+
+	exports.default = Header;
+
+/***/ },
+/* 169 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Content = _react2.default.createClass({
+	  displayName: "Content",
+
+	  render: function render() {
+	    return _react2.default.createElement(
+	      "div",
+	      { className: "content" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "container" },
+	        _react2.default.createElement(
+	          "h1",
+	          { className: "title" },
+	          "Content!"
+	        )
+	      )
+	    );
+	  }
+	});
+
+	exports.default = Content;
+
+/***/ },
+/* 170 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Footer = _react2.default.createClass({
+	  displayName: "Footer",
+
+	  render: function render() {
+	    return _react2.default.createElement(
+	      "div",
+	      { className: "footer" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "container" },
+	        _react2.default.createElement(
+	          "h1",
+	          { className: "title" },
+	          "Footer!"
+	        )
+	      )
+	    );
+	  }
+	});
+
+	exports.default = Footer;
 
 /***/ }
 /******/ ]);
