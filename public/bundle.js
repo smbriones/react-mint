@@ -81,7 +81,7 @@
 	        _react2.default.createElement(
 	          'h1',
 	          { className: 'title' },
-	          'Hello, Universe'
+	          'react-mint'
 	        )
 	      ),
 	      _react2.default.createElement(_Header2.default, null),
