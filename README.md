@@ -12,7 +12,7 @@ A few remaining TODOs are:
 
 ... and other things as I think of them.
 
-Feel free to use as-is, but this is a WIP! You'll need Node.js and npm to get started.
+Feel free to use as-is, but this is a WIP! You'll need [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) to get started. I use [LiveReload](http://livereload.com/) for CSS changes.
 
 Let me know if you have any tips or suggestions to make this even simpler. :)
 
