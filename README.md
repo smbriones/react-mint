@@ -12,7 +12,8 @@ A few remaining TODOs are:
 
 ... and other things as I think of them.
 
-Feel free to use as-is, but this is a WIP! Let me know if you have any tips or suggestions to make this even simpler. :)
+Feel free to use as-is, but this is a WIP! You'll need Node.js and npm to get started.
+
+Let me know if you have any tips or suggestions to make this even simpler. :)
 
 Cheers!
-Stephanie
