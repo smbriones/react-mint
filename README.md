@@ -7,9 +7,9 @@ With help from [this tutorial](https://medium.com/@viatsko/react-for-beginners-p
 
 Just starting this out but my remaining TODOs are:
 
-- [] Add BEM style component structure
-- [] Add a very basic CSS reset
-- [] Add a basic responsive setup
+* [ ] Add BEM style component structure
+* [ ] Add a very basic CSS reset
+* [ ] Add a basic responsive setup
 
 ... and other things as I think of them.
 
