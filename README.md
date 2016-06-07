@@ -6,9 +6,9 @@ With lots of help from [this tutorial](https://medium.com/@viatsko/react-for-beg
 
 A few remaining TODOs are:
 
-* [ ] Add BEM style component structure
-* [ ] Add a very basic CSS reset
-* [ ] Add a basic responsive setup
+- [x] Add simple CSS component-based file structure
+- [x] Add a very basic CSS reset
+- [ ] Add a basic responsive setup
 
 ... and other things as I think of them.
 
