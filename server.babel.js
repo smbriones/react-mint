@@ -6,9 +6,9 @@ const app = express();
 app.listen(process.env.PORT || 3000);
 
 app.use(sassMiddleware({
-  src: __dirname + '/sass',
-    dest: __dirname + '/public/stylesheets',
+  src:'sass/',
+    dest: __dirname + '/public',
     debug: true,
   })
 );
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/public')));
