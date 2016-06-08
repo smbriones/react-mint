@@ -2,7 +2,7 @@
 
 Another starter app for building with React using Babel, Express, and Webpack.
 
-With lots of help from [this tutorial](https://medium.com/@viatsko/react-for-beginners-part-1-setting-up-repository-babel-express-web-server-webpack-a3a90cc05d1e#.fl3rrpf7f) by [Valerii Iatsko](https://github.com/viatsko) and using [node-sass-middleware](https://www.npmjs.com/package/node-sass-middleware), I made react-mint to use as a template for starting simple Node/React projects. As a designer, most other React starter projects I found came with a lot power more than I needed, (or knew what to do with) so I made this one as bare bones as I possibly could.
+With lots of help from [this tutorial](https://medium.com/@viatsko/react-for-beginners-part-1-setting-up-repository-babel-express-web-server-webpack-a3a90cc05d1e#.fl3rrpf7f) by [Valerii Iatsko](https://github.com/viatsko) and using [node-sass-middleware](https://www.npmjs.com/package/node-sass-middleware), I made react-mint to use as a template for starting simple Node/React projects. As a designer, most other React starter projects I found came with a lot more power than I needed, (or knew what to do with) so I made this one as bare bones as I possibly could.
 
 A few remaining TODOs are:
 
