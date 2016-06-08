@@ -8,7 +8,7 @@ A few remaining TODOs are:
 
 - [x] Add simple CSS component-based file structure
 - [x] Add a very basic CSS reset
-- [ ] Add a basic responsive setup
+- [x] Add a basic responsive setup
 
 ... and other things as I think of them.
 
