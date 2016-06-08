@@ -75,15 +75,6 @@
 	    return _react2.default.createElement(
 	      'div',
 	      { className: 'app' },
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'container' },
-	        _react2.default.createElement(
-	          'h1',
-	          { className: 'title' },
-	          'react-mint'
-	        )
-	      ),
 	      _react2.default.createElement(_Header2.default, null),
 	      _react2.default.createElement(_Content2.default, null),
 	      _react2.default.createElement(_Footer2.default, null)
@@ -20390,7 +20381,7 @@
 	        _react2.default.createElement(
 	          "h1",
 	          { className: "title" },
-	          "Header!"
+	          "react-mint"
 	        )
 	      )
 	    );
@@ -20426,9 +20417,9 @@
 	        "div",
 	        { className: "container" },
 	        _react2.default.createElement(
-	          "h1",
-	          { className: "title" },
-	          "Content!"
+	          "p",
+	          null,
+	          "Make something awesome!"
 	        )
 	      )
 	    );
@@ -20460,15 +20451,7 @@
 	    return _react2.default.createElement(
 	      "div",
 	      { className: "footer" },
-	      _react2.default.createElement(
-	        "div",
-	        { className: "container" },
-	        _react2.default.createElement(
-	          "h1",
-	          { className: "title" },
-	          "Footer!"
-	        )
-	      )
+	      _react2.default.createElement("div", { className: "container" })
 	    );
 	  }
 	});

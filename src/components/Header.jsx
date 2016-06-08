@@ -5,7 +5,7 @@ const Header = React.createClass({
     return (
       <div className="header">
         <div className="container">
-          <h1 className="title">Header!</h1>
+          <h1 className="title">react-mint</h1>
         </div>
       </div>
     )

@@ -5,7 +5,7 @@ const Content = React.createClass({
     return (
       <div className="content">
         <div className="container">
-          <h1 className="title">Content!</h1>
+          <p>Make something awesome!</p>
         </div>
       </div>
     )
